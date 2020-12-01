@@ -1,4 +1,4 @@
-src=open("C:/Users/Latul/Desktop/input.txt","r")
+src=open("input.txt","r")
 a=[]
 for x in src.readlines():
     a.append(int(x[:-1]))
