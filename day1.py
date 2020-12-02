@@ -1,4 +1,4 @@
-src=open("input.txt","r")
+src=open("input1.txt","r")
 a=[]
 for x in src.readlines():
     a.append(int(x[:-1]))
