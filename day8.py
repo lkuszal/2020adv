@@ -1,7 +1,6 @@
 src = open('input8.txt', 'r')
 inp = src.read()
 inp = inp.split("\n")
-'''
 executed=[]
 line=0
 acc=0
@@ -16,7 +15,6 @@ while line not in executed:
     else:
         line+=1
 print(acc)
-'''
 #part two
 for x in range(len(inp)):
     newinp=inp[:]
